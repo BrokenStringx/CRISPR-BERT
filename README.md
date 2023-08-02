@@ -13,7 +13,7 @@ Encoder.py Used for encoding sequences<br>
 <br>
 load_data.py Used for loading the data from datasets<br>
 <br>
-CIRCLE_seq_10gRNA_wholeDataset_2.h5 The weights for the CRISPR-BERT model on this dataset <br>
+CIRCLE_seq_10gRNA_wholeDataset_2.h5 The weight for the CRISPR-BERT model on this dataset <br>
 ## Training and testing CRISPR-bert
 python model_train.py<br>
 <br>
