@@ -8,7 +8,7 @@ Kera-bert 0.89<br>
 Keras library 2.4.3<br>
 <br>
 tensorflow-gru 2.5.0
-## File Description
+## File description
 Encoder.py Used for encoding sequences<br>
 <br>
 load_data.py Used for loading the data from datasets<br>
