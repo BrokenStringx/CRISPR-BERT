@@ -6,7 +6,6 @@ from keras.models import Model
 from keras.optimizers import Adam
 
 from tensorflow.keras import backend as K
-
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 from keras_bert import load_trained_model_from_checkpoint
 config_path     = 'uncased_L-2_H-256_A-4/bert_config.json' 
@@ -34,7 +33,7 @@ def build_bert():
     weight_1 = Lambda(lambda x: x * 0.2)
     weight_2 = Lambda(lambda x: x * 0.8)
     x = feature_concat([weight_1(conv_output), weight_2(x_bert)])
-    # x = Lambda(lambda x: x[:, 0])(x)  # 取出[CLS]对应的向量用来做分类
+    # x = Lambda(lambda x: x[:, 0])(x)  
     x = Flatten()(x)
     x = Dense(128, activation="relu")(x)
     x = tf.keras.layers.Dropout(rate=0.35)(x)
