@@ -20,7 +20,7 @@ python model_test.py: Run this file to evaluate the CRISPR-BERT model. (Includin
 ## Datasets 
 Including 7 public datasets:
 * I1->CIRCLE_seq_10gRNA_whole
-* I2->elevation_6gRNA_wholeDataset
+* I2->elevation_6gRNA_whole
 * hek->HEK293t
 * k562->K562
 * II4
