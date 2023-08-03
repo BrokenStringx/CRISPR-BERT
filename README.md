@@ -10,7 +10,7 @@ The Python packages should be installed :<br>
 * [tensorflow-gpu](https://www.tensorflow.org/install/pip) 2.5.0
 * [scikit-learn](https://scikit-learn.org/stable/) 0.24.2
 ## File description
-* Encoder.py: You can used this file to encoding sgRNA-DNA sequences and get two coding format of C_RNN needed and BERT needed.<br>
+* Encoder.py: You can used this file to encode sgRNA-DNA sequences and get two coding format of C_RNN needed and BERT needed.<br>
 * load_data.py: Used for loading the data from datasets.
 * I1.h5: The weight for the CRISPR-BERT model on this dataset.
 * model.py: The CRISPR-BERT model with C_RNN and BERT.
