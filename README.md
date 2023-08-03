@@ -19,10 +19,10 @@ The Python packages should be installed :<br>
 python model_test.py: Running this file to evaluate the CRISPR-BERT model. (Include loading model weight and datasets, demonstrate model performance of six metrics)<br>
 ## Datasets 
 Include 7 public datasets:
-* I1->CIRCLE_seq_10gRNA_whole
-* I2->elevation_6gRNA_whole
-* hek->HEK293t
-* k562->K562
+* I1
+* I2
+* HEK293t
+* K562
 * II4
 * II5
 * II6
