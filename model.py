@@ -6,7 +6,6 @@ from keras.models import Model
 from keras.optimizers import Adam
 
 from tensorflow.keras import backend as K
-
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 from keras_bert import load_trained_model_from_checkpoint
 config_path     = 'uncased_L-2_H-256_A-4/bert_config.json' 
