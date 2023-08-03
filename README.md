@@ -16,7 +16,7 @@ The Python packages should be installed :<br>
 * model.py: The CRISPR-BERT model with C_RNN and BERT.
 * weight directory: Include BERT weight, we suggest that you can try different scale of [BERT](https://github.com/google-research/bert) models, you can also load other weight of BERT model in model.py.
 ## Testing 
-python model_test.py: Run this file to evaluate the CRISPR-BERT model. (Include loading model weight and datasets, demonstrate model performance of six metrics)<br>
+python model_test.py: Running this file to evaluate the CRISPR-BERT model. (Include loading model weight and datasets, demonstrate model performance of six metrics)<br>
 ## Datasets 
 Include 7 public datasets:
 * I1->CIRCLE_seq_10gRNA_whole
