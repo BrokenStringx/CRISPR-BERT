@@ -9,12 +9,12 @@ from tensorflow.keras import backend as K
 
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 from keras_bert import load_trained_model_from_checkpoint
-config_path     = 'uncased_L-2_H-256_A-4/bert_config.json' # 加载配置文件
+config_path     = 'uncased_L-2_H-256_A-4/bert_config.json' 
 checkpoint_path = 'uncased_L-2_H-256_A-4/bert_model.ckpt'
 bert_model = load_trained_model_from_checkpoint(config_path, checkpoint_path, trainable=False)
          
 def build_bert():
-    bert_model = load_trained_model_from_checkpoint(config_path, checkpoint_path, seq_len=None)  # 加载预训练模型
+    bert_model = load_trained_model_from_checkpoint(config_path, checkpoint_path, seq_len=None) 
     for l in bert_model.layers:
         l.trainable = True
     X_in = Input(shape=(26, 7))
