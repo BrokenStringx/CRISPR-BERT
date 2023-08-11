@@ -1,5 +1,5 @@
 # CRISPR-BERT
-CRISPR-BERT: Enhancing CRISPR/Cas9 off-target activities with mismatches and indels prediction using BERT-based convolutional and recurrent neural networks
+Interpretable CRISPR/Cas9 off-target activities with mismatches and indels prediction using BERT
 ## Environment
 [CUDA](https://developer.nvidia.com/cuda-toolkit) is necessary for training model in GPU：
 CUDA Version:11.8<br>
