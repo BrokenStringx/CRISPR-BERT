@@ -13,4 +13,3 @@ def loadData(file_path):
                 Positive.append([items[0],label_item])
             label.append(label_item)
     return Negative, Positive, label
-
