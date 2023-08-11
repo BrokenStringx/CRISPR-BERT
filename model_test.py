@@ -7,7 +7,6 @@ from keras.utils import np_utils
 from sklearn.metrics import precision_score, recall_score, f1_score
 from sklearn.metrics import roc_curve, precision_recall_curve, auc, matthews_corrcoef
 from sklearn.model_selection import train_test_split
-
 from load_data import loadData
 from model_train import Shuffle, Test_DataGenerator
 
