@@ -17,7 +17,7 @@ class Encoder:
         data_bases = list(self.data)
         j=0
         code_list.append(encoded_dict['--'])#
-        for i in range(23):
+        for i in range(24):
             code_list.append(encoded_dict[data_bases[j]+data_bases[j+1]])
             j=j+3
         code_list.append(encoded_dict['--'])

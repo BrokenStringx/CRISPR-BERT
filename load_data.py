@@ -13,3 +13,26 @@ def loadData(file_path):
                 Positive.append([items[0],label_item])
             label.append(label_item)
     return Negative, Positive, label
+<<<<<<< HEAD
+=======
+
+import pickle
+def loadData_pickle(file_path):
+    with open(file_path, 'rb') as f:
+        data = pickle.load(f)
+
+    Negative = []
+    Positive = []
+    label = []
+    data = np.array(data)
+
+    for item in data:
+        label_item = int(item[1])
+        if label_item == 0:
+            Negative.append([item[0], label_item])
+        else:
+            Positive.append([item[0], label_item])
+        label.append(label_item)
+
+    return Negative, Positive, label
+>>>>>>> 2d74038 (figure update)
